@@ -189,25 +189,23 @@ export const Header = () => {
         {/* Contenu mobile */}
         <div className="p-4 space-y-6 ml-4">
           <div>
-            <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
+            <h2 className="text-lg font-bold text-brand-primary">
               Nos méthodes
             </h2>
             <ul className="space-y-2">
-              <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
+              <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Qu&apos;est ce que le GAD® ?
               </li>
-              <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
+              <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Qui je suis
               </li>
-              <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
+              <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Les résultats
               </li>
             </ul>
           </div>
           <div>
-            <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
-              Mes soins
-            </h2>
+            <h2 className="text-lg font-bold text-brand-primary">Mes soins</h2>
             <ul className="space-y-2">
               <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
                 Soin Signature GAD®
