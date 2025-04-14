@@ -1,35 +1,14 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { Dispatch, SetStateAction } from "react";
 import { DrainageIcon } from "@/public/images/IconesSections/Drainage";
 import { HaptoIcon } from "@/public/images/IconesSections/Hapto";
 import { PediatrieIcon } from "@/public/images/IconesSections/Pediatrie";
 import { OsteoIcon } from "@/public/images/IconesSections/Osteo";
 
-type HeroProps = {
-  setHeroHeight: Dispatch<SetStateAction<number>>;
-  setHeroWidth: Dispatch<SetStateAction<number>>;
-};
-
-export const Sections = ({ setHeroHeight, setHeroWidth }: HeroProps) => {
-  const heroRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (heroRef.current) {
-      const height = heroRef.current.offsetHeight;
-      const width = heroRef.current.offsetWidth;
-      setHeroHeight(height);
-      setHeroWidth(width);
-    }
-  }, [setHeroHeight, setHeroWidth]);
-
+export const Sections = () => {
   return (
-    <div
-      ref={heroRef}
-      className="relative z-0 w-full h-auto mx-auto mt-5 lg:mt-0 overflow-hidden xl:w-[80%] lg:h-[600px] max-w-[95%]"
-    >
+    <div className="relative z-0 w-full h-auto mx-auto mt-5 lg:mt-0 overflow-hidden xl:w-[80%] lg:h-[600px] max-w-[95%]">
       {/* Image de fond */}
       <div className="absolute inset-0 h-full w-full z-0 overflow-hidden">
         <Image

@@ -1,29 +1,10 @@
 "use client";
+import Image from "next/image";
 
-import { useEffect, useRef } from "react";
-import { Dispatch, SetStateAction } from "react";
-
-type HeroProps = {
-  setHeroHeight: Dispatch<SetStateAction<number>>;
-  setHeroWidth: Dispatch<SetStateAction<number>>;
-};
-
-export const Hero = ({ setHeroHeight, setHeroWidth }: HeroProps) => {
-  const heroRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (heroRef.current) {
-      const height = heroRef.current.offsetHeight;
-      const width = heroRef.current.offsetWidth;
-      setHeroHeight(height);
-      setHeroWidth(width);
-    }
-  }, [setHeroHeight, setHeroWidth]);
-
+export const Hero = () => {
   return (
     <div
-      ref={heroRef}
-      className="relative mt-8 z-0 w-full h-auto mx-auto lg:mt-0 overflow-hidden xl:w-[80%] lg:h-[600px] max-w-[95%] bg-brand-dark" // Ajustement des largeurs
+      className="relative z-0 w-full h-auto mx-auto overflow-hidden bg-brand-primary" // Ajustement des largeurs
     >
       {/* Contenu du Hero */}
       <div className="relative z-10 flex flex-col items-center justify-center h-auto lg:h-full space-y-6">
@@ -31,8 +12,14 @@ export const Hero = ({ setHeroHeight, setHeroWidth }: HeroProps) => {
         <div className="flex flex-col lg:flex-row items-center lg:space-x-32 mb-10 lg:mb-6">
           {/* Logo */}
           <div className="flex-shrink-0 mb-6 mt-5 md:mb-0">
-            <div className="w-32 h-32 md:w-48 md:h-48 lg:w-60 lg:h-60 rounded-full border border-black bg-white flex items-center justify-center text-lg md:text-xl lg:text-2xl font-semibold">
-              Logo
+            <div className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden shadow-lg">
+              <Image
+                src="/images/Logo.png"
+                alt="Photo de profil d'Ophélie l'Ostéopathe"
+                fill
+                sizes="(max-width: 640px) 160px, (max-width: 1024px) 192px, 224px"
+                className="object-cover"
+              />
             </div>
           </div>
 

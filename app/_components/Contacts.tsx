@@ -1,32 +1,12 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import Image from "next/image";
 import ContactForm from "../components/ui/contactForm";
 import { Phone } from "lucide-react";
 
-type HeroProps = {
-  setHeroHeight: React.Dispatch<React.SetStateAction<number>>;
-  setHeroWidth: React.Dispatch<React.SetStateAction<number>>;
-};
-
-export const Contacts = ({ setHeroHeight, setHeroWidth }: HeroProps) => {
-  const heroRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (heroRef.current) {
-      const height = heroRef.current.offsetHeight;
-      const width = heroRef.current.offsetWidth;
-      setHeroHeight(height);
-      setHeroWidth(width);
-    }
-  }, [setHeroHeight, setHeroWidth]);
-
+export const Contacts = () => {
   return (
-    <div
-      ref={heroRef}
-      className="relative z-0 w-full h-auto mx-auto mt-5 lg:mt-0 overflow-hidden xl:w-[80%] lg:h-[600px] max-w-[95%]"
-    >
+    <div className="relative z-0 w-full h-auto mx-auto mt-5 lg:mt-0 overflow-hidden xl:w-[80%] lg:h-[600px] max-w-[95%]">
       {/* Image de fond */}
       <div className="absolute inset-0 h-full w-full z-0 overflow-hidden">
         <Image
