@@ -15,7 +15,7 @@ const config: Config = {
     },
     extend: {
       screens: {
-        ipadPro: "1025px", // Breakpoint juste au-dessus de l'iPad Pro
+        ipadPro: "1030px", // Breakpoint juste au-dessus de l'iPad Pro
       },
       colors: {
         brand: {
