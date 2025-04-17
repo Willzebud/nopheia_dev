@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Sections = () => {
   return (
-    <div className="relative z-0 w-full mx-auto mt-5 overflow-hidden xl:w-[80%] max-w-[95%] h-[400px] lg:h-[500px]">
+    <div className="relative z-0 w-full mx-auto mt-5 overflow-hidden xl:w-[80%] max-w-[95%] md:h-[500px] lg:h-[500px]">
       {/* Image de fond responsive */}
       <div className="absolute z-0 top-0 left-1/2 -translate-x-1/2 w-[120vw] sm:w-full h-full">
         <Image
@@ -18,10 +18,10 @@ export const Sections = () => {
 
       {/* Contenu centré */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6">
-        <h2 className="font-bold text-2xl sm:text-3xl text-brand-dark leading-tight mb-4">
+        <h2 className="font-bold text-2xl sm:text-3xl text-brand-cream leading-tight mb-4">
           Plus de 4 000 patients ont fait confiance au GAD®
         </h2>
-        <p className="text-base sm:text-xl text-white max-w-[90%] sm:max-w-3xl">
+        <p className="text-base sm:text-xl text-brand-cream max-w-[90%] sm:max-w-3xl">
           Le GAD® est une méthode drainante et anti-cellulite révolutionnaire.
           Un geste très profond qui combine les effets d’un palper rouler et
           d’un drainage profond. 3 fois plus profond et efficace qu’un massage
