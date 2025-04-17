@@ -44,7 +44,7 @@ export const Methode = () => {
       </div>
       <div className="w-full flex justify-center">
         <p className="text-lg md:text-2xl lg:text-xl text-brand-primary hover:text-brand-dark transition cursor-pointer underline">
-          Voir l'étude Clinique
+          Voir l&rsquo;étude Clinique
         </p>
       </div>
     </Section>
