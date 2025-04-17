@@ -92,7 +92,7 @@ export const Header = () => {
                       : "text-brand-primary group-hover:text-brand-dark" // Menu fermé ➔ couleur normale
                   }`}
                 >
-                  Mes soins
+                  Nos soins
                 </p>
               </div>
               {openMesSoins && (
