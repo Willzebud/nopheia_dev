@@ -5,9 +5,9 @@ import { Section } from "./Section";
 export const Methode = () => {
   return (
     <Section>
-      <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[600px] flex flex-col lg:flex-row items-center justify-between pb-10">
+      <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[600px] flex flex-col lg:flex-row items-center justify-between">
         {/* Colonne texte */}
-        <div className="z-10 w-full lg:w-1/2 lg:pr-10">
+        <div className="z-10 w-full lg:w-1/2 lg:pr-8">
           <h2 className="text-lg md:text-2xl lg:text-4xl text-brand-primary">
             Pourquoi cette Méthode ?
           </h2>
@@ -23,7 +23,7 @@ export const Methode = () => {
         </div>
 
         {/* Colonne bulles */}
-        <div className="relative z-10 w-full lg:w-1/2 flex flex-col items-center justify-center gap-4 px-4 sm:px-6 mt-10 md:mt-10 lg:pr-10">
+        <div className="relative z-10 w-full lg:w-1/2 flex flex-col items-center justify-center gap-4 px-4 sm:px-6 mt-10 md:mt-10 mb-10 lg:mb-0">
           {[
             "Une méthode validée par une étude scientifique.",
             "En 15 séances -8cm Taille | -4cm cuisses | -33% graisse corporelle*",
@@ -32,7 +32,7 @@ export const Methode = () => {
           ].map((text, index) => (
             <div
               key={index}
-              className="bg-brand-medium w-[300px] md:w-[400px] lg:w-[600px] h-auto py-4 px-6 flex items-center justify-center text-center"
+              className="bg-brand-medium w-[300px] md:w-[400px] lg:w-[520px] h-auto py-4 px-6 flex items-center justify-center text-center"
               style={{
                 borderRadius: "66% 34% 67% 33% / 40% 65% 35% 60%",
               }}
@@ -41,6 +41,11 @@ export const Methode = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="w-full flex justify-center">
+        <p className="text-lg md:text-2xl lg:text-xl text-brand-primary hover:text-brand-dark transition cursor-pointer underline">
+          Voir l'étude Clinique
+        </p>
       </div>
     </Section>
   );
