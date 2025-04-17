@@ -8,7 +8,7 @@ export const Methode = () => {
       <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[600px] flex flex-col lg:flex-row items-center justify-between">
         {/* Colonne texte */}
         <div className="z-10 w-full lg:w-1/2 lg:pr-8">
-          <h2 className="text-lg md:text-2xl lg:text-4xl text-brand-primary">
+          <h2 className="text-2xl md:text-2xl lg:text-4xl text-brand-primary">
             Pourquoi cette Méthode ?
           </h2>
           <p className="text-base sm:text-xl text-justify text-brand-dark mt-4">

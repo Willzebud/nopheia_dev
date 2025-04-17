@@ -39,17 +39,11 @@ export const AvisPatients = () => {
   };
 
   return (
-    <Section className="py-20 bg-brand-cream">
+    <Section className="py-20 bg-cover bg-center bg-no-repeat">
       <div className="w-full flex flex-col justify-center mb-10">
-        <h2 className="text-lg md:text-2xl lg:text-4xl text-center text-brand-primary">
+        <h2 className="text-2xl md:text-2xl lg:text-4xl text-center text-brand-primary">
           Elles partagent leur expérience
         </h2>
-        <div
-          className="bg-brand-primary px-6 py-2 w-auto max-w-full"
-          style={{
-            borderRadius: "65% 35% 82% 18% / 73% 30% 70% 27% ",
-          }}
-        ></div>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Vidéo */}
@@ -63,7 +57,7 @@ export const AvisPatients = () => {
           />
           <button
             onClick={toggleVideo}
-            className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-brand-primary text-white text-sm px-4 py-2 rounded-full shadow-md hover:bg-brand-dark transition"
+            className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-brand-primary text-white text-sm px-4 py-2 rounded-full shadow-md hover:bg-brand-cream transition"
           >
             {isPlaying ? "Pause" : "Lecture"}
           </button>
