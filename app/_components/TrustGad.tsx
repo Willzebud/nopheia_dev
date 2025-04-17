@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export const Sections = () => {
+export const TrustGad = () => {
   return (
     <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] h-[320px] md:h-[500px] lg:h-[500px]">
       {/* Image de fond responsive */}
