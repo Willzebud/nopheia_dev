@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export const Sections = () => {
   return (
-    <div className="relative z-0 w-full mx-auto mt-5 overflow-hidden xl:w-[80%] max-w-[95%] md:h-[500px] lg:h-[500px]">
+    <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] h-[320px] md:h-[500px] lg:h-[500px]">
       {/* Image de fond responsive */}
-      <div className="absolute z-0 top-0 left-1/2 -translate-x-1/2 w-[120vw] sm:w-full h-full">
+      <div className="absolute z-0 top-0 left-1/2 -translate-x-1/2 w-[200vw] sm:w-full h-full">
         <Image
           src="/images/FondCartes/Fond2.webp"
           alt="Fond coloré avec des dessins de plantes"
