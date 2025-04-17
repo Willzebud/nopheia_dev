@@ -8,6 +8,7 @@ import { Spacing } from "./Spacing";
 import { QuiJeSuis } from "./_components/QuiJeSuis";
 import { Contacts } from "./_components/Contacts";
 import { Magazine } from "./_components/Magazine";
+import { AvisPatients } from "./_components/AvisPatients";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
 
       <Methode />
 
-      <Spacing />
+      <AvisPatients />
 
       <QuiJeSuis />
 

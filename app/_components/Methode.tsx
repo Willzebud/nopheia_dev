@@ -20,6 +20,11 @@ export const Methode = () => {
             peau. Le GAD c’est à la fois une forte action minceur (-0,5 cm par
             séance) et une action anti-cellulite sur l’aspect peau d’orange.
           </p>
+          <div className="w-full flex justify-center mt-5">
+            <p className="text-lg md:text-2xl lg:text-xl text-brand-primary hover:text-brand-dark transition cursor-pointer underline">
+              Voir l&rsquo;étude Clinique
+            </p>
+          </div>
         </div>
 
         {/* Colonne bulles */}
@@ -41,11 +46,6 @@ export const Methode = () => {
             </div>
           ))}
         </div>
-      </div>
-      <div className="w-full flex justify-center">
-        <p className="text-lg md:text-2xl lg:text-xl text-brand-primary hover:text-brand-dark transition cursor-pointer underline">
-          Voir l&rsquo;étude Clinique
-        </p>
       </div>
     </Section>
   );
