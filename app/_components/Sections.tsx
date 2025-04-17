@@ -1,110 +1,32 @@
 "use client";
 
 import Image from "next/image";
-import { DrainageIcon } from "@/public/images/IconesSections/Drainage";
-import { HaptoIcon } from "@/public/images/IconesSections/Hapto";
-import { PediatrieIcon } from "@/public/images/IconesSections/Pediatrie";
-import { OsteoIcon } from "@/public/images/IconesSections/Osteo";
 
 export const Sections = () => {
   return (
-    <div className="relative z-0 w-full h-auto mx-auto mt-5 lg:mt-0 overflow-hidden xl:w-[80%] lg:h-[600px] max-w-[95%]">
-      {/* Image de fond */}
-      <div className="absolute inset-0 h-full w-full z-0 overflow-hidden">
+    <div className="relative z-0 w-full mx-auto mt-5 overflow-hidden xl:w-[80%] max-w-[95%] h-[400px] lg:h-[500px]">
+      {/* Image de fond responsive */}
+      <div className="absolute z-0 top-0 left-1/2 -translate-x-1/2 w-[120vw] sm:w-full h-full">
         <Image
           src="/images/FondCartes/Fond2.webp"
           alt="Fond coloré avec des dessins de plantes"
           fill
           priority
-          className="z-0 object-cover"
+          className="object-contain object-center"
         />
       </div>
 
-      {/* Contenu des sections */}
-      <div id="Services" className="relative z-10 pb-20">
-        <div className="inline-block bg-white px-6 py-2 rounded-md mt-10 ml-4">
-          <h2 className="font-bold text-5xl text-left text-[#023333] leading-none">
-            Sections
-          </h2>
-        </div>
-
-        {/* Conteneur pour centrer les cartes */}
-        <div className="flex justify-center items-center h-auto mt-10 lg:mt-20">
-          {/* Cartes des sections */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4 w-full">
-            {/* Carte Ostéopathie adulte */}
-            <div className="relative flex flex-col items-center bg-[#023333] p-6 rounded-lg shadow-lg transition duration-300 hover:bg-[#A9E6DA] group">
-              {/* Icône */}
-              <div className="w-16 h-16 mb-4 text-primary transition-opacity duration-300 group-hover:opacity-40">
-                <OsteoIcon className="w-full h-full" />
-              </div>
-
-              {/* Texte principal */}
-              <h3 className="font-bold text-white text-center transition-opacity duration-300 group-hover:opacity-40">
-                Ostéopathie adulte
-              </h3>
-
-              {/* Texte "Voir plus" qui apparaît au hover */}
-              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Voir plus
-              </p>
-            </div>
-
-            {/* Carte Pédiatrie */}
-            <div className="relative flex flex-col items-center bg-[#023333] p-6 rounded-lg shadow-lg transition duration-300 hover:bg-[#A9E6DA] group">
-              {/* Icône */}
-              <div className="w-16 h-16 mb-4 text-primary transition-opacity duration-300 group-hover:opacity-40">
-                <PediatrieIcon className="w-full h-full" />
-              </div>
-
-              {/* Texte principal */}
-              <h3 className="font-bold text-white text-center transition-opacity duration-300 group-hover:opacity-40">
-                Pédiatrie
-              </h3>
-
-              {/* Texte "Voir plus" */}
-              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Voir plus
-              </p>
-            </div>
-
-            {/* Carte Drainage */}
-            <div className="relative flex flex-col items-center bg-[#023333] p-6 rounded-lg shadow-lg transition duration-300 hover:bg-[#A9E6DA] group">
-              {/* Icône */}
-              <div className="w-16 h-16 mb-4 text-primary transition-opacity duration-300 group-hover:opacity-40">
-                <DrainageIcon className="w-full h-full" />
-              </div>
-
-              {/* Texte principal */}
-              <h3 className="font-bold text-white text-center transition-opacity duration-300 group-hover:opacity-40">
-                Drainage
-              </h3>
-
-              {/* Texte "Voir plus" */}
-              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Voir plus
-              </p>
-            </div>
-
-            {/* Carte Haptonomie */}
-            <div className="relative flex flex-col items-center bg-[#023333] p-6 rounded-lg shadow-lg transition duration-300 hover:bg-[#A9E6DA] group">
-              {/* Icône */}
-              <div className="w-16 h-16 mb-4 text-primary transition-opacity duration-300 group-hover:opacity-40">
-                <HaptoIcon className="w-full h-full" />
-              </div>
-
-              {/* Texte principal */}
-              <h3 className="font-bold text-white text-center transition-opacity duration-300 group-hover:opacity-40">
-                Haptonomie
-              </h3>
-
-              {/* Texte "Voir plus" */}
-              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Voir plus
-              </p>
-            </div>
-          </div>
-        </div>
+      {/* Contenu centré */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6">
+        <h2 className="font-bold text-2xl sm:text-3xl text-brand-dark leading-tight mb-4">
+          Plus de 4 000 patients ont fait confiance au GAD®
+        </h2>
+        <p className="text-base sm:text-xl text-white max-w-[90%] sm:max-w-3xl">
+          Le GAD® est une méthode drainante et anti-cellulite révolutionnaire.
+          Un geste très profond qui combine les effets d’un palper rouler et
+          d’un drainage profond. 3 fois plus profond et efficace qu’un massage
+          classique.
+        </p>
       </div>
     </div>
   );

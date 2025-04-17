@@ -28,12 +28,12 @@ export const Hero = () => {
 
           {/* Carte info */}
           <div
-            className="bg-brand-primary w-[300px] lg:w-[400px] h-[200px] mx-2 md:mt-0 flex items-center justify-center px-6"
+            className="bg-brand-primary w-[300px] md:w-[400px] lg:w-[600px] h-[200px] mx-2 flex items-center justify-center px-6"
             style={{
               borderRadius: "66% 34% 67% 33% / 40% 65% 35% 60%",
             }}
           >
-            <h2 className="text-brand-cream text-lg md:text-xl font-bold text-center">
+            <h2 className="text-brand-cream text-lg md:text-2xl lg:text-4xl font-bold text-center">
               Découvrez le massage révolutionnaire, drainant et anticellulite :
               Le GAD
             </h2>
