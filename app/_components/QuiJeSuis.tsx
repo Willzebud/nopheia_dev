@@ -41,11 +41,11 @@ export const QuiJeSuis = () => {
             }}
           >
             <p className="text-lg text-brand-dark text-justify leading-relaxed text-wrap break-words px-8">
-              Nopheïa a été fondé par Ophélie, ostéopathe diplômée d’état et
-              ambassadrice du GAD® depuis X année. <br />
-              <br /> Nopheïa a pour unique objectif d'aider toutes les femmes a
-              perdre leur cellulite et à redessiner et retonifier leur
-              silhouette{" "}
+              Nopheïa a été fondé par Ophélie, ostéopathe diplômée d&rsquo;état
+              et ambassadrice du GAD® depuis 3 ans. <br />
+              <br /> Nopheïa a pour unique objectif d&rsquo;aider toutes les
+              femmes a perdre leur cellulite et à redessiner et retonifier leur
+              silhouette.{" "}
             </p>
           </div>
         </div>
