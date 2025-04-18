@@ -34,10 +34,9 @@ export const QuiJeSuis = () => {
               d&rsquo;État et ambassadrice de la méthode GAD® depuis 3 ans.{" "}
               <br />
               <br />
-              Nopheïa s&rsquo;adresse à toutes les femmes qui souhaitent
-              estomper leur cellulite, redessiner leur silhouette et retrouver
-              une peau plus lisse et tonique, grâce à un accompagnement
-              professionnel et personnalisé. <br />
+              Elle s&rsquo;adresse à toutes les femmes qui souhaitent estomper
+              leur cellulite, redessiner leur silhouette et retrouver une peau
+              plus lisse et tonique. <br />
               <br />
               Notre expertise est de révéler le potentiel du corps féminin avec
               à une méthode 100% naturelle et bienveillante.
