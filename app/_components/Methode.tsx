@@ -8,16 +8,16 @@ export const Methode = () => {
       <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[600px] flex flex-col lg:flex-row items-center justify-between">
         {/* Colonne texte */}
         <div className="z-10 w-full lg:w-1/2 lg:pr-8">
-          <h2 className="text-2xl md:text-2xl lg:text-4xl text-brand-primary">
+          <h2 className="text-2xl md:text-2xl lg:text-4xl text-center text-brand-primary">
             Pourquoi cette Méthode ?
           </h2>
           <p className="text-base sm:text-xl text-justify text-brand-dark mt-4">
-            Notre méthode minceur utilise un geste exclusif le GAD, qui
+            Notre méthode minceur utilise un geste exclusif le GAD®, qui
             s’effectue avec la paume de la main. Les résultats obtenus sont ceux
             d’un drainage lymphatique profond combiné à un palper rouler
             profond. Ce massage a une triple action sur la circulation sanguine
             et lymphatique, sur les tissus graisseux et sur la fermeté de la
-            peau. Le GAD c’est à la fois une forte action minceur (-0,5 cm par
+            peau. Le GAD® c’est à la fois une forte action minceur (-0,5 cm par
             séance) et une action anti-cellulite sur l’aspect peau d’orange.
           </p>
           <div className="w-full flex justify-center mt-5">

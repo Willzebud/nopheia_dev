@@ -57,7 +57,7 @@ export const AvisPatients = () => {
           />
           <button
             onClick={toggleVideo}
-            className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-brand-primary text-white text-sm px-4 py-2 rounded-full shadow-md hover:bg-brand-cream transition"
+            className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-brand-primary text-white text-sm px-4 py-2 rounded-full shadow-md hover:bg-brand-dark transition"
           >
             {isPlaying ? "Pause" : "Lecture"}
           </button>

@@ -46,6 +46,12 @@ export const Header = () => {
             />
           </div>
 
+          <div className="h-auto w-auto px-3 lg:px-4 py-1 rounded-full cursor-pointer transition group ipadPro:hidden">
+            <p className="text-brand-primary group-hover:text-brand-dark">
+              Rendez-vous
+            </p>
+          </div>
+
           {/* Menu items */}
           <div className="hidden ipadPro:flex relative items-center space-x-4">
             {/* Nos méthodes */}
@@ -205,7 +211,7 @@ export const Header = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-lg font-bold text-brand-primary">Mes soins</h2>
+            <h2 className="text-lg font-bold text-brand-primary">Nos soins</h2>
             <ul className="space-y-2">
               <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
                 Soin Signature GAD®
@@ -226,11 +232,6 @@ export const Header = () => {
           <div>
             <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
               Blog
-            </h2>
-          </div>
-          <div>
-            <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
-              Rendez-vous
             </h2>
           </div>
         </div>
