@@ -7,6 +7,7 @@ import { Methode } from "./_components/Methode";
 import { Spacing } from "./Spacing";
 import { Magazine } from "./_components/Magazine";
 import { AvisPatients } from "./_components/AvisPatients";
+import { NosSoins } from "./_components/NosSoins";
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
       <Methode />
 
       <AvisPatients />
+
+      <NosSoins />
     </main>
   );
 }
