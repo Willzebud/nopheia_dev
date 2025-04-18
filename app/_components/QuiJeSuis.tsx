@@ -12,7 +12,7 @@ export const QuiJeSuis = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary mb-12">
             Nopheïa
           </h2>
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-16 w-full max-w-6xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-16 gap-4 w-full max-w-6xl mx-auto">
             <div className="flex-shrink-0 md:mb-0 mx-auto md:mx-0">
               <div
                 className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden shadow-lg"
@@ -40,7 +40,7 @@ export const QuiJeSuis = () => {
               professionnel et personnalisé. <br />
               <br />
               Notre expertise est de révéler le potentiel du corps féminin avec
-              à une méthode 100% naturelle, efficace et bienveillante.
+              à une méthode 100% naturelle et bienveillante.
             </p>
           </div>
         </div>
