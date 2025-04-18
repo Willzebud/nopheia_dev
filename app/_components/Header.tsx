@@ -76,7 +76,7 @@ export const Header = () => {
                     Qu&apos;est ce que le GAD® ?
                   </p>
                   <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
-                    Qui je suis
+                    Nopheïa
                   </p>
                   <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
                     Les Résultats
@@ -203,7 +203,7 @@ export const Header = () => {
                 Qu&apos;est ce que le GAD® ?
               </li>
               <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
-                Qui je suis
+                Nopheïa
               </li>
               <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Les résultats
