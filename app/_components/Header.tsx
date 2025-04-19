@@ -32,7 +32,7 @@ export const Header = () => {
         <div className="relative flex items-center space-x-2">
           <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border border-brand-primary bg-transparent cursor-pointer transition hover:border-brand-dark hover:bg-brand-dark" />
           <div className="h-auto w-auto">
-            <p className="text-brand-primary">NOPHEÏA</p>
+            <p className="text-brand-dark">NOPHEÏA</p>
           </div>
         </div>
 
@@ -180,7 +180,7 @@ export const Header = () => {
         initial={{ y: "-100%" }}
         animate={{ y: isMenuOpen ? "0%" : "-100%" }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
-        className="fixed top-0 left-0 w-full h-[32rem] bg-brand-cream shadow-lg z-40 ipadPro:hidden"
+        className="fixed top-0 left-0 w-full h-[29rem] bg-brand-cream shadow-lg z-40 ipadPro:hidden"
       >
         {/* Bouton fermer */}
         <div className="flex justify-end p-4">
@@ -195,9 +195,7 @@ export const Header = () => {
         {/* Contenu mobile */}
         <div className="p-4 space-y-6 ml-4">
           <div>
-            <h2 className="text-lg font-bold text-brand-primary">
-              Nos méthodes
-            </h2>
+            <h2 className="text-lg font-bold text-brand-dark">Nos méthodes</h2>
             <ul className="space-y-2">
               <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Qu&apos;est ce que le GAD® ?
@@ -211,7 +209,7 @@ export const Header = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-lg font-bold text-brand-primary">Nos soins</h2>
+            <h2 className="text-lg font-bold text-brand-dark">Nos soins</h2>
             <ul className="space-y-2">
               <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
                 Soin Signature GAD®

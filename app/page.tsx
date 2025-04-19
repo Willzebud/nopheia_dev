@@ -9,6 +9,7 @@ import { Magazine } from "./_components/Magazine";
 import { AvisPatients } from "./_components/AvisPatients";
 import { NosSoins } from "./_components/NosSoins";
 import { QuiJeSuis } from "./_components/QuiJeSuis";
+import { Lieu } from "./_components/Lieu";
 
 export default function Home() {
   return (
@@ -35,9 +36,13 @@ export default function Home() {
 
       <NosSoins />
 
+      <Spacing />
+
       <QuiJeSuis />
 
       <Spacing />
+
+      <Lieu />
 
       <Spacing />
     </main>
