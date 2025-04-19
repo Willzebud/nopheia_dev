@@ -36,6 +36,10 @@ export default function Home() {
       <NosSoins />
 
       <QuiJeSuis />
+
+      <Spacing />
+
+      <Spacing />
     </main>
   );
 }
