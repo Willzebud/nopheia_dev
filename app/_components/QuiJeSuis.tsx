@@ -2,13 +2,24 @@
 
 import Image from "next/image";
 import { Section } from "./Section";
+import Wave from "react-wavify";
 
 export const QuiJeSuis = () => {
   return (
     <Section>
-      <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[600px] flex flex-col lg:flex-row items-center justify-between border border-8 border-dotted border-brand-dark rounded-xl">
-        {/* Colonne texte */}
+      <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[600px] flex flex-col lg:flex-row items-center justify-between">
         <div className="z-10 w-full">
+          <Wave
+            fill="#a45c40"
+            paused={false}
+            style={{ display: "flex" }}
+            options={{
+              height: 130,
+              amplitude: 20,
+              speed: 0.15,
+              points: 3,
+            }}
+          />
           <h2 className="text-2xl md:text-3xl py-4 lg:text-4xl text-center text-brand-primary mb-4 lg:mb-12">
             Nopheïa
           </h2>
@@ -29,7 +40,7 @@ export const QuiJeSuis = () => {
                 />
               </div>
             </div>
-            <p className="text-base sm:text-xl text-justify text-brand-dark mt-4 px-4 py-4 lg:pr-8">
+            <p className="text-base sm:text-xl text-justify text-brand-dark mt-4 px-4 py-4 lg:pr-8 sm:pb-4 lg:pb-8">
               Nopheïa est une marque fondée par Ophélie, ostéopathe diplômée
               d&rsquo;État et ambassadrice de la méthode GAD® depuis 3 ans.{" "}
               <br />
@@ -42,6 +53,17 @@ export const QuiJeSuis = () => {
               à une méthode 100% naturelle et bienveillante.
             </p>
           </div>
+          <Wave
+            fill="#a45c40"
+            paused={false}
+            style={{ display: "flex", transform: "rotate(180deg)" }}
+            options={{
+              height: 130,
+              amplitude: 20,
+              speed: 0.15,
+              points: 3,
+            }}
+          />
         </div>
       </div>
     </Section>

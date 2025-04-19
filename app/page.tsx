@@ -36,11 +36,7 @@ export default function Home() {
 
       <NosSoins />
 
-      <Spacing />
-
       <QuiJeSuis />
-
-      <Spacing />
 
       <Lieu />
 
