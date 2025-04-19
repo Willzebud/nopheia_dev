@@ -11,31 +11,31 @@ const questions = [
   },
   {
     question:
-      "Quelle est la différence entre le palper-rouler et le massage GAD ?",
+      "Quelle est la différence entre le palper-rouler et le massage GAD® ?",
     answer:
-      "Là où le palper-rouler va agir sur les cellules graisseuses accumulées dans les couches superficielles de la peau, la méthode GAD offre une action beaucoup plus profonde et complète, puisqu’elle touche également l’hypoderme moyen et profond. \nCe geste va ainsi permettre de venir à bout des cellulites les plus incrustées. Le Massage GAD de par son action profonde va ainsi faciliter le drainage, limiter le phénomène de rétention d’eau et activer le système circulatoire et lymphatique ce que ne permet pas le palper-rouler dont l’action reste localisée en surface.",
+      "Là où le palper-rouler va agir sur les cellules graisseuses accumulées dans les couches superficielles de la peau, la méthode GAD® offre une action beaucoup plus profonde et complète, puisqu’elle touche également l’hypoderme moyen et profond. \nCe geste va ainsi permettre de venir à bout des cellulites les plus incrustées. Le Massage GAD® de par son action profonde va ainsi faciliter le drainage, limiter le phénomène de rétention d’eau et activer le système circulatoire et lymphatique ce que ne permet pas le palper-rouler dont l’action reste localisée en surface.",
   },
   {
-    question: "Le massage GAD est-il douloureux ?",
+    question: "Le massage GAD® est-il douloureux ?",
     answer:
-      "Le massage GAD n’est pas douloureux contrairement à d’autres techniques de massage amincissant et ne vous laisse pas de bleus. La sensation de picotement et de chaleur peut être désagréable mais reste très supportable.",
+      "Le massage GAD® n’est pas douloureux contrairement à d’autres techniques de massage amincissant et ne vous laisse pas de bleus. La sensation de picotement et de chaleur peut être désagréable mais reste très supportable.",
   },
   {
     question:
-      "Quelle est la différence entre le drainage lymphatique et le massage GAD ?",
+      "Quelle est la différence entre le drainage lymphatique et le massage GAD® ?",
     answer:
-      "Les manoeuvres drainantes de la méthode GAD sont plus appuyées que des manoeuvres drainantes classiques. Son action profonde va ainsi faciliter le drainage, et limiter le phénomène de rétention d’eau. De plus, La massage GAD va agir sur les cellules graisseuses accumulées dans la couche superficielle, moyenne et profonde de la peau. \nCe geste va ainsi permettre de venir à bout des cellulites les plus incrustées. Pour finir, le massage GAD va aussi stimuler les fibroblastes, qui sont des cellules de soutien impliquées dans le processus de production d’élastine et de collagène. La tonicité de la peau s’ améliore et l’aspect « peau d’orange » diminue.",
+      "Les manoeuvres drainantes de la méthode GAD® sont plus appuyées que des manoeuvres drainantes classiques. Son action profonde va ainsi faciliter le drainage, et limiter le phénomène de rétention d’eau. De plus, La massage GAD® va agir sur les cellules graisseuses accumulées dans la couche superficielle, moyenne et profonde de la peau. \nCe geste va ainsi permettre de venir à bout des cellulites les plus incrustées. Pour finir, le massage GAD® va aussi stimuler les fibroblastes, qui sont des cellules de soutien impliquées dans le processus de production d’élastine et de collagène. La tonicité de la peau s’ améliore et l’aspect « peau d’orange » diminue.",
   },
   {
-    question: "Puis-je faire le massage GAD si je suis enceinte ?",
+    question: "Puis-je faire le massage GAD® si je suis enceinte ?",
     answer:
-      "Oui nous pouvons adapter le massage GAD pour les femmes enceintes ainsi que pour les femmes en post-partum.",
+      "Oui nous pouvons adapter le massage GAD® pour les femmes enceintes ainsi que pour les femmes en post-partum.",
   },
   {
     question:
       "Pourquoi est-il recommandé de continuer sur des séances d’entretien ?",
     answer:
-      "Après une cure de 7 ou 14 séances, si vous êtes satisfaite des résultats obtenus, nous recommandons de continuer sur une cure d’entretien . Tout comme le sport, il est impératif d’entretenir vos résultats pour éviter que les cellules graisseuses se reforment et donc que la cellulite revienne. Nous recommandons de réaliser une séance de massage GAD tous les mois.",
+      "Après une cure de 7 ou 14 séances, si vous êtes satisfaite des résultats obtenus, nous recommandons de continuer sur une cure d’entretien . Tout comme le sport, il est impératif d’entretenir vos résultats pour éviter que les cellules graisseuses se reforment et donc que la cellulite revienne. Nous recommandons de réaliser une séance de massage GAD® tous les mois.",
   },
 ];
 
