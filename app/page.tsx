@@ -11,6 +11,7 @@ import { NosSoins } from "./_components/NosSoins";
 import { QuiJeSuis } from "./_components/QuiJeSuis";
 import { Lieu } from "./_components/Lieu";
 import { FAQ } from "./_components/FAQ";
+import { Footer } from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -44,6 +45,10 @@ export default function Home() {
       <Spacing />
 
       <FAQ />
+
+      <Spacing />
+
+      <Footer />
     </main>
   );
 }
