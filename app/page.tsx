@@ -10,6 +10,7 @@ import { AvisPatients } from "./_components/AvisPatients";
 import { NosSoins } from "./_components/NosSoins";
 import { QuiJeSuis } from "./_components/QuiJeSuis";
 import { Lieu } from "./_components/Lieu";
+import { FAQ } from "./_components/FAQ";
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
       <Lieu />
 
       <Spacing />
+
+      <FAQ />
     </main>
   );
 }

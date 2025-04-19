@@ -20,7 +20,7 @@ export const QuiJeSuis = () => {
               points: 3,
             }}
           />
-          <h2 className="text-2xl md:text-3xl py-4 lg:text-4xl text-center text-brand-primary mb-4 lg:mb-12">
+          <h2 className="text-2xl md:text-3xl py-4 lg:text-4xl text-center text-brand-primary mb-4 lg:mb-0">
             Nopheïa
           </h2>
           <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-10 gap-4 w-full max-w-6xl mx-auto">

@@ -37,7 +37,7 @@ export const Methode = () => {
           ].map((text, index) => (
             <div
               key={index}
-              className="bg-brand-cream border border-2 border-brand-primary w-[300px] md:w-[400px] lg:w-[520px] h-auto py-4 px-6 flex items-center justify-center text-center"
+              className="bg-brand-cream border border-2 border-brand-dark w-[300px] md:w-[400px] lg:w-[520px] h-auto py-4 px-6 flex items-center justify-center text-center"
               style={{
                 borderRadius: "66% 34% 67% 33% / 40% 65% 35% 60%",
               }}
