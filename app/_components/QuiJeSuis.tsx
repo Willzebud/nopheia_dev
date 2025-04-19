@@ -14,16 +14,16 @@ export const QuiJeSuis = () => {
             paused={false}
             style={{ display: "flex" }}
             options={{
-              height: 130,
+              height: 110,
               amplitude: 20,
               speed: 0.15,
               points: 3,
             }}
           />
-          <h2 className="text-2xl md:text-3xl py-4 lg:text-4xl text-center text-brand-primary mb-4 lg:mb-0">
+          <h2 className="bg-brand-dark text-2xl md:text-3xl py-4 lg:text-4xl text-center text-brand-cream">
             Nopheïa
           </h2>
-          <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-10 gap-4 w-full max-w-6xl mx-auto">
+          <div className="bg-brand-dark flex flex-col lg:flex-row items-center justify-center lg:gap-10 gap-4 w-full">
             <div className="flex-shrink-0 md:mb-0 mx-auto md:mx-0 pl-6">
               <div
                 className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden shadow-lg"
@@ -32,7 +32,7 @@ export const QuiJeSuis = () => {
                 }}
               >
                 <Image
-                  src="/images/Logo.png"
+                  src="/images/Logo2.webp"
                   alt="Photo de profil d'Ophélie l'Ostéopathe"
                   fill
                   sizes="(max-width: 640px) 160px, (max-width: 1024px) 192px, 224px"
@@ -40,7 +40,7 @@ export const QuiJeSuis = () => {
                 />
               </div>
             </div>
-            <p className="text-base sm:text-xl text-justify text-brand-dark mt-4 px-4 py-4 lg:pr-8 sm:pb-4 lg:pb-8">
+            <p className="text-base sm:text-xl text-justify text-brand-cream mt-4 px-4 py-4 lg:pr-8 sm:pb-4 lg:pb-8">
               Nopheïa est une marque fondée par Ophélie, ostéopathe diplômée
               d&rsquo;État et ambassadrice de la méthode GAD® depuis 3 ans.{" "}
               <br />
@@ -58,7 +58,7 @@ export const QuiJeSuis = () => {
             paused={false}
             style={{ display: "flex", transform: "rotate(180deg)" }}
             options={{
-              height: 130,
+              height: 110,
               amplitude: 20,
               speed: 0.15,
               points: 3,
