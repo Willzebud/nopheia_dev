@@ -10,36 +10,24 @@ export const Lieu = () => {
           Où nous trouver
         </h2>
         {/* Colonne texte */}
-
-        <div className="flex flex-col lg:flex-row items-center justify-center justify-between px-8">
-          <div
-            className="bg-brand-cream border border-2 border-brand-primary w-[300px] md:w-[400px] lg:w-[350px] h-auto py-4 px-6 flex items-center justify-center text-center mb-6"
-            style={{
-              borderRadius: "17% 83% 9% 91% / 91% 12% 88% 9%",
-            }}
-          >
-            <p className="text-base text-justify sm:text-xl text-brand-dark mb-4 text-center w-[90%]">
-              Cabinet Carnoux
-              <br />
-              158 Avenue du Mail
-              <br />
-              13470 Carnoux-en-Provence
-            </p>
-          </div>
-
+        <div className="flex flex-col md:flex-row items-center justify-center sm:gap-12 lg:gap-12 px-8">
           <div
             className="bg-brand-cream border border-2 border-brand-primary w-[300px] md:w-[400px] lg:w-[350px] h-auto py-4 px-6 flex items-center justify-center text-center mb-6"
             style={{
               borderRadius: "6% 94% 6% 94% / 86% 12% 88% 14% ",
             }}
           >
-            <p className="text-base text-justify sm:text-xl text-brand-dark mb-4 text-center w-[90%]">
+            <a
+              href="https://www.google.com/maps?q=avenue+de+Verdun,+13400+Aubagne"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-justify sm:text-xl text-brand-dark mb-4 text-center w-[90%] hover:text-brand-primary"
+            >
               Cabinet Aubagne
               <br />
-              Résidence la Malounière
-              <br />
-              13400 Aubagne
-            </p>
+              bâtiment G - résidence la Malounière, avenue de Verdun, 13400
+              Aubagne
+            </a>
           </div>
 
           <div
@@ -48,13 +36,16 @@ export const Lieu = () => {
               borderRadius: "94% 6% 94% 6% / 5% 92% 8% 95% ",
             }}
           >
-            <p className="text-base text-justify sm:text-xl text-brand-dark mb-4 text-center w-[90%]">
-              Cabinet Mimet
+            <a
+              href="https://www.google.com/maps?q=877+Route+de+Puits+Gérard,+13105+Mimet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-justify sm:text-xl text-brand-dark mb-4 text-center w-[90%] hover:text-brand-primary"
+            >
+              Cabinet Maison Rosée
               <br />
-              877 Route de Puits Gérard
-              <br />
-              13105 Mimet
-            </p>
+              877 Route de Puits Gérard, 13105 Mimet
+            </a>
           </div>
         </div>
       </div>
