@@ -20,9 +20,6 @@ export const QuiJeSuis = () => {
               points: 3,
             }}
           />
-          <h2 className="bg-brand-dark text-2xl md:text-3xl py-4 lg:text-4xl text-center text-brand-cream">
-            Nopheïa
-          </h2>
           <div className="bg-brand-dark flex flex-col lg:flex-row items-center justify-center lg:gap-10 gap-4 w-full">
             <div className="flex-shrink-0 md:mb-0 mx-auto md:mx-0 pl-6">
               <div
