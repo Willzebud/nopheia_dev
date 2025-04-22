@@ -1,0 +1,41 @@
+import { Header } from "../_components/Header";
+import { Section } from "../_components/Section";
+import { Spacing } from "../Spacing";
+import Image from "next/image";
+
+export default function GADPage() {
+  return (
+    <main>
+      <Header />
+      <Section className="pt-[100px]">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-12 flex flex-col lg:flex-row items-center justify-between gap-8">
+          {/* Texte à gauche */}
+          <div className="w-full lg:w-1/2">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary mb-6">
+              Qu’est-ce que le GAD® ?
+            </h1>
+            <p className="text-lg md:text-xl text-brand-dark leading-relaxed text-justify">
+              Créé par Anne Cali, c&apos;est une méthode unique basée sur un
+              massage manuel très profond qui consiste à saisir les tissus de la
+              peau avec la paume de la main que l&apos;on va mettre sous
+              pression et que l&apos;on relâche comme une sorte de ventouse.
+              D&apos;où le nom G.A.D qui signifie tout simplement Glisser
+              Appuyer Décoller.
+            </p>
+          </div>
+
+          {/* Image à droite */}
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <Image
+              src="/images/ImgMa/MA1.webp"
+              alt="Dessin de main qui masse"
+              width={600}
+              height={600}
+              className="w-[500px] md:w-[800px] lg:w-[800px] h-auto object-contain"
+            />
+          </div>
+        </div>
+      </Section>
+    </main>
+  );
+}

@@ -31,7 +31,7 @@ export const Methode = () => {
         <div className="relative z-10 w-full lg:w-1/2 flex flex-col items-center justify-center gap-4 px-4 sm:px-6 mt-10 md:mt-10 mb-10 lg:mb-0">
           {[
             "Une méthode validée par une étude scientifique.",
-            "En 14 séances, c'est en moyenne -8cm Taille | -4cm cuisses | -33% graisse corporelle",
+            "En 14 séances, c'est en moyenne : -8cm Taille | -4cm cuisses | -33% graisse corporelle",
             "Des résultats visibles dès la 1ère séance : perte moyenne de 0,5cm par séance",
             "Des bilans et des prises de mesures toutes les 5 séances",
           ].map((text, index) => (

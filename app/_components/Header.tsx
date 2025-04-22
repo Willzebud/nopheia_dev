@@ -5,6 +5,7 @@ import { X } from "lucide-react";
 import { InstaIcon } from "./icons/Insta";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,9 @@ export const Header = () => {
       <Section className="flex items-center justify-between">
         {/* Logo */}
         <div className="relative flex items-center space-x-2">
-          <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border border-brand-primary bg-transparent cursor-pointer transition hover:border-brand-dark hover:bg-brand-dark" />
+          <Link href="/">
+            <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border border-brand-primary bg-transparent cursor-pointer transition hover:border-brand-dark hover:bg-brand-dark" />
+          </Link>
           <div className="h-auto w-auto">
             <p className="text-brand-dark">NOPHEÏA</p>
           </div>
@@ -72,9 +75,11 @@ export const Header = () => {
               </div>
               {openNosMethodes && (
                 <div className="absolute left-0 top-full mt-2 flex flex-col bg-brand-cream shadow-lg rounded-md w-56 py-2">
-                  <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
-                    Qu&apos;est ce que le GAD® ?
-                  </p>
+                  <Link href="/tout-savoir-sur-le-gad">
+                    <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
+                      Qu&apos;est ce que le GAD® ?
+                    </p>
+                  </Link>
                   <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
                     Nopheïa
                   </p>
@@ -197,9 +202,11 @@ export const Header = () => {
           <div>
             <h2 className="text-lg font-bold text-brand-dark">Nos méthodes</h2>
             <ul className="space-y-2">
-              <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
-                Qu&apos;est ce que le GAD® ?
-              </li>
+              <Link href="/tout-savoir-sur-le-gad">
+                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
+                  Qu&apos;est ce que le GAD® ?
+                </li>
+              </Link>
               <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Nopheïa
               </li>
