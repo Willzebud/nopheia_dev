@@ -1,3 +1,5 @@
+import { AvisPatients } from "../_components/AvisPatients";
+import { Footer } from "../_components/Footer";
 import { Header } from "../_components/Header";
 import { CelluliteSection } from "./CelluliteSection";
 import { EffetsPositifs } from "./EffetsPositifs";
@@ -14,6 +16,8 @@ export default function GADPage() {
       <EtudeClinique />
       <EffetsPositifs />
       <EnConclusion />
+      <AvisPatients />
+      <Footer />
     </main>
   );
 }

@@ -1,11 +1,12 @@
 "use client";
 
-import { Section } from "./Section";
+import { Vague } from "./icons/Vague";
 
 export const Footer = () => {
   return (
-    <Section>
-      <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[80%] max-w-[95%] min-h-[50px]"></div>
-    </Section>
+    <div className="relative z-0 w-full mx-auto overflow-hidden xl:w-[100%] max-w-[100%] min-h-[50px]">
+      <Vague />
+      <div className="relative bg-brand-dark" />
+    </div>
   );
 };
