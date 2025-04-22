@@ -21,9 +21,11 @@ export const Methode = () => {
             séance) et une action anti-cellulite sur l’aspect peau d’orange.
           </p>
           <div className="w-full flex justify-center mt-5">
-            <p className="text-lg md:text-2xl lg:text-xl text-brand-primary hover:text-brand-dark transition cursor-pointer underline">
-              Voir l&rsquo;étude Clinique
-            </p>
+            <div className="mt-12">
+              <button className="bg-brand-primary hover:bg-brand-dark text-white font-semibold py-3 px-6 rounded-md transition">
+                Voir l’étude clinique
+              </button>
+            </div>
           </div>
         </div>
 

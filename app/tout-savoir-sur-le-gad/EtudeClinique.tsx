@@ -31,10 +31,12 @@ export const EtudeClinique = () => {
             En 14 séances, c&rsquo;est en moyenne : -8cm Taille | – 4cm cuisses
             | -33% graisse corporelle
           </p>
-          <div className="w-full flex justify-center mt-5 lg:mt-20">
-            <p className="text-lg md:text-2xl lg:text-xl text-brand-primary hover:text-brand-dark transition cursor-pointer underline">
-              Voir l&rsquo;étude Clinique
-            </p>
+          <div className="w-full flex justify-center mt-5">
+            <div className="mt-12">
+              <button className="bg-brand-primary hover:bg-brand-dark text-white font-semibold py-3 px-6 rounded-md transition">
+                Consultez l’étude complète
+              </button>
+            </div>
           </div>
         </div>
 
