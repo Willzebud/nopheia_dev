@@ -4,7 +4,7 @@ export const Vague = (
   props: ComponentPropsWithoutRef<"svg"> & { size?: number }
 ) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" {...props}>
       <path
         fill="#a45c40"
         fill-opacity="1"
