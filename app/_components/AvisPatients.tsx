@@ -45,6 +45,7 @@ export const AvisPatients = () => {
           Elles partagent leur expérience
         </h2>
       </div>
+
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Vidéo */}
         <div className="relative group w-[280px] md:w-[320px] aspect-[9/16] overflow-hidden shadow-lg rounded-xl bg-brand-dark">
@@ -96,6 +97,13 @@ export const AvisPatients = () => {
             ))}
           </div>
         </div>
+      </div>
+
+      {/* 👉 Bouton "Consultez les avis" */}
+      <div className="mt-16 lg:mt-20 flex justify-center">
+        <button className="bg-brand-primary hover:bg-brand-dark text-white font-semibold py-3 px-6 rounded-md transition">
+          Consultez les avis
+        </button>
       </div>
     </Section>
   );
