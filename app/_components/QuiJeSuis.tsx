@@ -38,9 +38,9 @@ export const QuiJeSuis = () => {
               </div>
             </div>
             <p className="text-base sm:text-xl text-justify text-brand-cream mt-4 px-4 py-4 lg:pr-8 sm:pb-4 lg:pb-8">
-              Nopheïa est une marque fondée par Ophélie, ostéopathe diplômée
-              d&rsquo;État et ambassadrice de la méthode GAD® depuis 3 ans.{" "}
-              <br />
+              Nopheïa est une marque fondée par Ophélie Montalto, ostéopathe
+              diplômée d&rsquo;État et ambassadrice de la méthode GAD® depuis 3
+              ans. <br />
               <br />
               Elle s&rsquo;adresse à toutes les femmes qui souhaitent estomper
               leur cellulite, redessiner leur silhouette et retrouver une peau

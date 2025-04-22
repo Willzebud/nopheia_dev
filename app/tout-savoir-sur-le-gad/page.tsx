@@ -7,7 +7,7 @@ export default function GADPage() {
     <main>
       <Header />
       <Section className="pt-[100px]">
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-12 flex flex-col lg:flex-row items-center justify-between gap-8">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-12 flex flex-col lg:flex-row items-center justify-between lg:gap-8">
           {/* Texte à gauche */}
           <div className="w-full lg:w-1/2">
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary mb-6">
@@ -26,11 +26,11 @@ export default function GADPage() {
           {/* Image à droite */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
-              src="/images/ImgMa/MA1.webp"
+              src="/images/ImgMa/MA2.webp"
               alt="Dessin de main qui masse"
               width={600}
               height={600}
-              className="w-[500px] md:w-[800px] lg:w-[800px] h-auto object-contain"
+              className="w-[250px] md:w-[400px] lg:w-[400px] h-auto object-contain"
             />
           </div>
         </div>
