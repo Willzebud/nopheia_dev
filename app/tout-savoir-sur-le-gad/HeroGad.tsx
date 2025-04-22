@@ -11,6 +11,15 @@ export const HeroGad = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary mb-6">
             Qu’est-ce que le GAD® ?
           </h1>
+          <div className="w-full lg:w-1/2 flex justify-center lg:hidden">
+            <Image
+              src="/images/ImgMa/MA2.webp"
+              alt="Dessin de main qui masse"
+              width={600}
+              height={600}
+              className="w-[150px] md:w-[200px] lg:w-[400px] h-auto object-contain"
+            />
+          </div>
           <p className="text-lg md:text-xl text-brand-dark leading-relaxed text-justify">
             Créé par Anne Cali, c&apos;est une méthode unique basée sur un
             massage manuel très profond qui consiste à saisir les tissus de la
@@ -27,7 +36,7 @@ export const HeroGad = () => {
             alt="Dessin de main qui masse"
             width={600}
             height={600}
-            className="w-[250px] md:w-[400px] lg:w-[400px] h-auto object-contain"
+            className="w-[250px] md:w-[400px] lg:w-[400px] h-auto object-contain hidden lg:block"
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Header } from "../_components/Header";
 import { CelluliteSection } from "./CelluliteSection";
+import { EtudeClinique } from "./EtudeClinique";
 import { HeroGad } from "./HeroGad";
 
 export default function GADPage() {
@@ -8,6 +9,7 @@ export default function GADPage() {
       <Header />
       <HeroGad />
       <CelluliteSection />
+      <EtudeClinique />
     </main>
   );
 }

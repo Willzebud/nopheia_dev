@@ -9,13 +9,13 @@ export const CelluliteSection = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary w-full lg:w-1/2">
             C’est quoi la cellulite ?
           </h2>
-          <div className="text-brand-dark text-lg md:text-xl w-full lg:w-1/2 leading-relaxed">
+          <div className="text-brand-dark text-lg text-justify md:text-xl w-full lg:w-1/2 leading-relaxed">
             <p className="mb-4">
               La cellulite est formée par une augmentation de cellules
               graisseuses qui compriment le réseau sanguin et entraînent un
               capitonnage de la peau.
             </p>
-            <p className="text-sm md:text-base text-brand-dark">
+            <p className="text-sm md:text-base text-brand-dark text-justify">
               Le Massage GAD permet d’activer la circulation sanguine et
               lymphatique pour éliminer et déstocker les amas graisseux. En
               conséquence, l’aspect de la cellulite diminue, en plus d’une perte
