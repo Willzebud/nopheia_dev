@@ -1,6 +1,5 @@
 import { Header } from "../_components/Header";
 import { Section } from "../_components/Section";
-import { Spacing } from "../Spacing";
 import Image from "next/image";
 
 export default function GADPage() {
