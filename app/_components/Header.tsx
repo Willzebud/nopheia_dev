@@ -42,12 +42,19 @@ export const Header = () => {
         {/* Menu Desktop */}
         <div className="relative flex items-center space-x-2">
           {/* Instagram Icon */}
-          <div className="group w-16 h-16 md:w-16 md:h-4 lg:w-12 lg:h-12 rounded-full bg-transparent flex items-center justify-center cursor-pointer transition">
-            <InstaIcon
-              size={30}
-              className="text-brand-primary transition group-hover:text-brand-dark"
-            />
-          </div>
+          <a
+            href="https://www.instagram.com/nopheia/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <div className="group w-16 h-16 md:w-16 md:h-4 lg:w-12 lg:h-12 rounded-full bg-transparent flex items-center justify-center cursor-pointer transition">
+              <InstaIcon
+                size={30}
+                className="text-brand-primary transition group-hover:text-brand-dark"
+              />
+            </div>
+          </a>
 
           <div className="h-auto w-auto px-3 lg:px-4 py-1 rounded-full cursor-pointer transition group ipadPro:hidden">
             <p className="text-brand-primary group-hover:text-brand-dark">
