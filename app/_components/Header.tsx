@@ -209,9 +209,11 @@ export const Header = () => {
                   Qu&apos;est ce que le GAD® ?
                 </li>
               </Link>
-              <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
-                Nopheïa
-              </li>
+              <Link href="/nopheia">
+                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
+                  Nopheïa
+                </li>
+              </Link>
               <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
                 Les résultats
               </li>
