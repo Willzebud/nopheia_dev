@@ -46,7 +46,7 @@ export const NotreApproche = () => {
                 alt={alt}
                 width={200}
                 height={200}
-                className="w-20 h-20 lg:w-24 lg:h-24"
+                className="w-[100px] h-[100px] lg:w-[100px] lg:h-[100px]"
               />
               <p className="text-brand-dark text-lg md:text-xl leading-relaxed text-justify sm:text-left">
                 <span className="font-semibold">{title}</span> {text}
