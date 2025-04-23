@@ -9,6 +9,7 @@ export const GalaLogoIcon = (
       width={props.size}
       height={props.size}
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Logo du magazine Gala"
       {...props}
     >
       <rect x="0.025" fill="#E20025" width="141.45" height="70" />

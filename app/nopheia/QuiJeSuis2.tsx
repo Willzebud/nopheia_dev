@@ -17,12 +17,12 @@ export const QuiJeSuis2 = () => {
             <div
               className="relative bg-brand-dark overflow-hidden shadow-lg w-[250px] h-[250px] sm:w-[300px] sm:h-[300px]"
               style={{
-                borderRadius: "66% 34% 75% 25% / 34% 68% 32% 66%",
+                borderRadius: "48% 52% 48% 52% / 19% 43% 18% 42%",
               }}
             >
               <Image
                 src="/images/Sis.webp"
-                alt="Photo d'Ophélie Montalto"
+                alt="Photo d'Ophélie ROCHE"
                 fill
                 className="object-cover"
               />

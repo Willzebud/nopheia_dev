@@ -14,7 +14,7 @@ export const EtudeClinique = () => {
           <div className="lg:hidden w-full lg:w-1/2 flex justify-center">
             <Image
               src="/images/ImgMa/MA5.webp"
-              alt="Dessin de main qui masse"
+              alt="Illustration d'une poignée de main symbole d'une étude clinique validée"
               width={600}
               height={600}
               className="w-[150px] md:w-[200px] lg:w-[400px] h-auto object-contain"

@@ -3,13 +3,13 @@ import { ComponentPropsWithoutRef } from "react";
 export const LeFigaroLogoIcon = (
   props: ComponentPropsWithoutRef<"svg"> & { size?: number }
 ) => {
-
   return (
     <svg
       viewBox="0 0 916 571.4"
       width={props.size}
       height={props.size}
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Logo du magazine Le Figaro"
       {...props}
     >
       <path

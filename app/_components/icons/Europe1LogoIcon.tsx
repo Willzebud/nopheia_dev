@@ -10,6 +10,7 @@ export const Europe1LogoIcon = (
       height={props.size}
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
+      aria-label="Logo du magazine Europe1"
       {...props}
     >
       <path

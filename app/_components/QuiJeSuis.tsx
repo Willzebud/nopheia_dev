@@ -31,7 +31,7 @@ export const QuiJeSuis = () => {
               >
                 <Image
                   src="/images/Logo2.webp"
-                  alt="Photo de profil d'Ophélie l'Ostéopathe"
+                  alt="Logo de la marque Nopheïa"
                   fill
                   sizes="(max-width: 640px) 160px, (max-width: 1024px) 192px, 224px"
                   className="object-cover"

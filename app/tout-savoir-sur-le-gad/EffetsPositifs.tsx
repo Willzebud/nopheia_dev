@@ -18,7 +18,7 @@ export const EffetsPositifs = () => {
             <div className="flex flex-col items-center text-center">
               <Image
                 src="/images/ImgMa/MA6.webp"
-                alt="Circulation"
+                alt="Illustration de la circulation sanguine"
                 width={80}
                 height={80}
                 className="mb-4"
@@ -40,7 +40,7 @@ export const EffetsPositifs = () => {
             <div className="flex flex-col items-center text-center">
               <Image
                 src="/images/ImgMa/MA7.webp"
-                alt="Circulation"
+                alt="Illustration des cellules graisseuses"
                 width={80}
                 height={80}
                 className="mb-4"
@@ -63,7 +63,7 @@ export const EffetsPositifs = () => {
             <div className="flex flex-col items-center text-center">
               <Image
                 src="/images/ImgMa/MA8.webp"
-                alt="Circulation"
+                alt="Illustration des cellules fibroblastes"
                 width={80}
                 height={80}
                 className="mb-4"

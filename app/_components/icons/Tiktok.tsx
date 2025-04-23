@@ -11,6 +11,7 @@ export const TiktokIcon = (
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
+      aria-label="Logo Tiktok"
       {...props}
     >
       <title>TikTok</title>

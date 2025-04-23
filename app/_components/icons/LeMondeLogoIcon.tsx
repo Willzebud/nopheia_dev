@@ -9,6 +9,7 @@ export const LeMondeLogoIcon = (
       width={props.size}
       height={props.size}
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Logo du magazine Le Monde"
       {...props}
     >
       <path

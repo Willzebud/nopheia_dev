@@ -9,6 +9,7 @@ export const M6LogoIcon = (
       width={props.size}
       height={props.size}
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Logo de chaine télévisé M6"
       {...props}
     >
       <defs>

@@ -9,6 +9,7 @@ export const LePointLogoIcon = (
       height={props.size}
       viewBox="0 0 219.685 52.231499"
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Logo du magazine Le Point"
       {...props}
     >
       <g transform="matrix(1.25,0,0,-1.25,-10.954588,147.29687)">

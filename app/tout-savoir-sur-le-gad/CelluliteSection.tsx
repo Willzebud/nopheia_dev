@@ -30,7 +30,7 @@ export const CelluliteSection = () => {
           <div className="flex flex-col items-center text-center">
             <Image
               src="/images/ImgMa/MA3.webp"
-              alt="Peau avec cellulite"
+              alt="Schéma d'une peau avec cellulite : les adipocytes en excès compriment le réseau sanguin et créent un capitonnage de la peau"
               width={400}
               height={300}
               className="w-full h-auto max-w-sm"
@@ -51,7 +51,7 @@ export const CelluliteSection = () => {
           <div className="flex flex-col items-center text-center">
             <Image
               src="/images/ImgMa/MA4.webp"
-              alt="Peau normale"
+              alt="Schéma d'une peau normale et lisse : les adipocytes sont peu nombreux et le réseau sanguin circule librement"
               width={400}
               height={300}
               className="w-full h-auto max-w-sm"
