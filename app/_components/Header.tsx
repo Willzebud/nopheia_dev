@@ -80,9 +80,11 @@ export const Header = () => {
                       Qu&apos;est ce que le GAD® ?
                     </p>
                   </Link>
-                  <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
-                    Nopheïa
-                  </p>
+                  <Link href="/nopheia">
+                    <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
+                      Nopheïa
+                    </p>
+                  </Link>
                   <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
                     Les Résultats
                   </p>
