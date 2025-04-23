@@ -56,8 +56,8 @@ export const QuiJeSuis1 = () => {
           <Image
             src="/images/Logo.png"
             alt="Logo de la marque Nopheïa"
-            width={350}
-            height={350}
+            width={300}
+            height={300}
             className="object-contain"
           />
         </div>

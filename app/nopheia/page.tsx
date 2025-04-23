@@ -4,7 +4,9 @@ import { Footer } from "../_components/Footer";
 import { Header } from "../_components/Header";
 import { Spacing } from "../Spacing";
 import { NotreApproche } from "./NotreApproche";
+import { NotrePromesse } from "./NotrePromesse";
 import { QuiJeSuis1 } from "./QuiJeSuis1";
+import { QuiJeSuis2 } from "./QuiJeSuis2";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <QuiJeSuis1 />
       <Spacing />
       <NotreApproche />
+      <NotrePromesse />
+      <QuiJeSuis2 />
       <Footer />
     </main>
   );

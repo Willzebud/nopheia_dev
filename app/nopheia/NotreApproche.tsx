@@ -10,7 +10,7 @@ export const NotreApproche = () => {
           Notre approche
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {[
             {
               src: "/images/ImgNo/NO1.webp",
@@ -39,16 +39,16 @@ export const NotreApproche = () => {
           ].map(({ src, alt, title, text }, i) => (
             <div
               key={i}
-              className="flex flex-col sm:flex-row lg:flex-row items-center gap-4 text-center sm:text-left"
+              className="flex flex-col lg:flex-row items-center gap-4 text-center sm:text-left md:text-left"
             >
               <Image
                 src={src}
                 alt={alt}
                 width={200}
                 height={200}
-                className="w-[100px] h-[100px] lg:w-[100px] lg:h-[100px]"
+                className="w-[120px] h-[120px] lg:w-[150px] lg:h-[150px]"
               />
-              <p className="text-brand-dark text-lg md:text-xl leading-relaxed text-justify sm:text-left">
+              <p className="text-brand-dark text-lg md:text-xl leading-relaxed text-justify sm:text-left md:text-left">
                 <span className="font-semibold">{title}</span> {text}
               </p>
             </div>
