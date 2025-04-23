@@ -34,11 +34,11 @@ export const QuiJeSuis1 = () => {
             transformer, mais à révéler. <br />
             <br /> Une beauté naturelle, bienveillante et profondément
             respectueuse du corps féminin. <br />
-            <br /> Fondée par Ophélie Montalto, ostéopathe diplômée d’État et
-            ambassadrice de la méthode GAD®, Nopheïa accompagne depuis plusieurs
-            années les femmes qui souhaitent atténuer leur cellulite, redessiner
-            leur silhouette et retrouver une peau plus lisse et plus tonique,
-            sans jamais renier leur corps, ni leur singularité.
+            <br /> Fondée par Ophélie Montalto, ostéopathe diplômée d&rsquo;État
+            et ambassadrice de la méthode GAD®, Nopheïa accompagne depuis
+            plusieurs années les femmes qui souhaitent atténuer leur cellulite,
+            redessiner leur silhouette et retrouver une peau plus lisse et plus
+            tonique, sans jamais renier leur corps, ni leur singularité.
           </p>
 
           <p className="font-semibold text-brand-primary text-lg md:text-xl text-center mt-10">
