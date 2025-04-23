@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export const TrustGad = () => {
   return (
@@ -27,11 +28,13 @@ export const TrustGad = () => {
           d’un drainage profond. 3 fois plus profond et efficace qu’un massage
           classique.
         </p>
-        <div className="w-full flex justify-center mt-5">
-          <p className="text-lg md:text-2xl lg:text-xl text-brand-cream hover:text-brand-dark transition cursor-pointer underline pb-4 md:pb-0">
-            Voir les avis
-          </p>
-        </div>
+        <Link href="/tout-savoir-sur-le-gad">
+          <div className="w-full flex justify-center mt-5">
+            <p className="text-lg md:text-2xl lg:text-xl text-brand-cream hover:text-brand-dark transition cursor-pointer underline pb-4 md:pb-0">
+              En savoir plus
+            </p>
+          </div>
+        </Link>
       </div>
     </div>
   );

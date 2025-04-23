@@ -16,7 +16,7 @@ export const CelluliteSection = () => {
               capitonnage de la peau.
             </p>
             <p className="text-sm md:text-base text-brand-dark text-justify">
-              Le Massage GAD permet d’activer la circulation sanguine et
+              Le Massage GAD® permet d’activer la circulation sanguine et
               lymphatique pour éliminer et déstocker les amas graisseux. En
               conséquence, l’aspect de la cellulite diminue, en plus d’une perte
               de centimètres au niveau de la taille des hanches et des cuisses.

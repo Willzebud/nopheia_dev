@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Section } from "./Section";
 import Wave from "react-wavify";
+import Link from "next/link";
 
 export const QuiJeSuis = () => {
   return (
@@ -37,18 +38,27 @@ export const QuiJeSuis = () => {
                 />
               </div>
             </div>
-            <p className="text-base sm:text-xl text-justify text-brand-cream mt-4 px-4 py-4 lg:pr-8 sm:pb-4 lg:pb-8">
-              Nopheïa est une marque fondée par Ophélie Montalto, ostéopathe
-              diplômée d&rsquo;État et ambassadrice de la méthode GAD® depuis 3
-              ans. <br />
-              <br />
-              Elle s&rsquo;adresse à toutes les femmes qui souhaitent estomper
-              leur cellulite, redessiner leur silhouette et retrouver une peau
-              plus lisse et tonique. <br />
-              <br />
-              Notre expertise est de révéler le potentiel du corps féminin avec
-              à une méthode 100% naturelle et bienveillante.
-            </p>
+            <div className="flex flex-col">
+              <p className="text-base sm:text-xl text-justify text-brand-cream mt-4 px-4 py-4 lg:pr-8 sm:pb-4 lg:pb-8">
+                Nopheïa est une marque fondée par Ophélie Montalto, ostéopathe
+                diplômée d&rsquo;État et ambassadrice de la méthode GAD® depuis
+                3 ans. <br />
+                <br />
+                Elle s&rsquo;adresse à toutes les femmes qui souhaitent estomper
+                leur cellulite, redessiner leur silhouette et retrouver une peau
+                plus lisse et tonique. <br />
+                <br />
+                Notre expertise est de révéler le potentiel du corps féminin
+                avec à une méthode 100% naturelle et bienveillante.
+              </p>
+              <Link href="/nopheia">
+                <div className="w-full flex justify-center mt-5">
+                  <p className="text-lg md:text-2xl lg:text-xl text-brand-cream hover:text-brand-primary transition cursor-pointer underline pb-4 md:pb-0">
+                    En savoir plus
+                  </p>
+                </div>
+              </Link>
+            </div>
           </div>
           <Wave
             fill="#a45c40"

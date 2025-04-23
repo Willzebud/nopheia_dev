@@ -30,19 +30,17 @@ export const QuiJeSuis2 = () => {
           </div>
 
           <p className="text-lg md:text-xl text-brand-dark leading-relaxed text-justify">
-            Bonjour,&nbsp;je suis Ophélie ROCHE 😊 <br /> <br /> En tant
-            qu&rsquo;ostéopathe, je considère le corps de mes patient(e)s dans
-            son ensemble, je suis dans la recherche perpétuelle de la cause plus
-            que de simplement masquer les symptômes. Chaque séance est
-            personnalisée, basée sur une écoute attentive avec une approche
-            basée sur la mémoire cellulaire et pas seulement sur la structure
-            osseuse. Au fur et à mesure de mes prise en charge, mes patientes
-            ont souhaité aller plus loin dans leur recherche du bien-être et
-            m’ont demandé de les accompagner à se sentir mieux dans leur tête et
-            dans le corps. Au travers de mes diplômes et spécialités, j’avais
-            besoin de quelque chose dont les résultats sont prouvés… me voilà à
-            pratiquer le GAD. C&rsquo;est le début d’une aventure qui commence
-            où se mêle pratique manuelle et évolution physique.
+            Bonjour,&nbsp;&nbsp;je suis Ophélie ROCHE 😊 <br /> <br /> En tant
+            qu&rsquo;ostéopathe, je considère mes patient(e)s dans leur
+            intégralité. Chaque séance est basée sur une écoute attentive et
+            bienveillante afin d&rsquo;adapter ma prise en charge à leur douleur
+            et mal-être. Soucieuse de répondre à davantage de leur besoin sur le
+            plan physique et émotionnel, j&rsquo;ai recherché une technique dont
+            l&rsquo;efficacité a été prouvée scientifiquement… et me voilà deux
+            années plus tard à pratiquer le GAD®. C&rsquo;est le début
+            d&rsquo;une aventure qui commence pour vous et moi, où se mêle
+            pratique manuelle, amour et confiance en soi. Et qui sait, je
+            pourrais vous apporter bien plus grâce à Nopheïa.
           </p>
         </div>
 

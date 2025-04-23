@@ -21,7 +21,7 @@ export const EtudeClinique = () => {
             />
           </div>
           <p className="text-lg md:text-xl text-brand-dark leading-relaxed text-justify">
-            Le massage GAD a fait l&apos;objet d&apos;une étude clinique en
+            Le massage GAD® a fait l&apos;objet d&apos;une étude clinique en
             collaboration avec le Dr Blanchemaison qui valide l&apos;efficacité
             de cette méthode. Cette étude a été menée sur 12 personnes qui ont
             suivi 15 séances de 30 minutes à raison de 3 séances par semaine.
