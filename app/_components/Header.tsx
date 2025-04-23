@@ -130,13 +130,6 @@ export const Header = () => {
               </p>
             </div>
 
-            {/* Blog */}
-            <div className="h-auto w-auto px-3 lg:px-4 py-1 rounded-full cursor-pointer transition group">
-              <p className="text-brand-primary group-hover:text-brand-dark">
-                Blog
-              </p>
-            </div>
-
             {/* Rendez-vous */}
             <div className="h-auto w-auto px-3 lg:px-4 py-1 rounded-full cursor-pointer transition group">
               <p className="text-brand-primary group-hover:text-brand-dark">
@@ -187,7 +180,7 @@ export const Header = () => {
         initial={{ y: "-100%" }}
         animate={{ y: isMenuOpen ? "0%" : "-100%" }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
-        className="fixed top-0 left-0 w-full h-[29rem] bg-brand-cream shadow-lg z-40 ipadPro:hidden"
+        className="fixed top-0 left-0 w-full h-[26rem] bg-brand-cream shadow-lg z-40 ipadPro:hidden"
       >
         {/* Bouton fermer */}
         <div className="flex justify-end p-4">
@@ -205,43 +198,48 @@ export const Header = () => {
             <h2 className="text-lg font-bold text-brand-dark">Nos méthodes</h2>
             <ul className="space-y-2">
               <Link href="/tout-savoir-sur-le-gad">
-                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
+                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark pt-2">
                   Qu&apos;est ce que le GAD® ?
                 </li>
               </Link>
               <Link href="/nopheia">
-                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
+                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark pt-2">
                   Nopheïa
                 </li>
               </Link>
-              <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark">
-                Les résultats
-              </li>
+              <Link href="">
+                <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark pt-2">
+                  Les résultats
+                </li>
+              </Link>
             </ul>
           </div>
           <div>
             <h2 className="text-lg font-bold text-brand-dark">Nos soins</h2>
             <ul className="space-y-2">
-              <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
-                Soin Signature GAD®
-              </li>
-              <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
-                Le GAD® Detox +
-              </li>
-              <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark">
-                Le Belly GAD®
-              </li>
+              <Link href="">
+                <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark pt-2">
+                  Soin Signature GAD®
+                </li>
+              </Link>
+              <Link href="">
+                <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark pt-2">
+                  Le GAD® Detox +
+                </li>
+              </Link>
+              <Link href="">
+                <li className="cursor-pointer text-brand-primary transition hover:text-brand-dark pt-2">
+                  Le Belly GAD®
+                </li>
+              </Link>
             </ul>
           </div>
           <div>
-            <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
-              Tarifs
-            </h2>
-          </div>
-          <div>
-            <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
-              Blog
-            </h2>
+            <Link href="">
+              <h2 className="text-lg font-bold text-brand-primary cursor-pointer transition hover:text-brand-dark">
+                Tarifs
+              </h2>
+            </Link>
           </div>
         </div>
       </motion.div>
