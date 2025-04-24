@@ -8,7 +8,7 @@ import { NotrePromesse } from "./NotrePromesse";
 import { QuiJeSuis1 } from "./QuiJeSuis1";
 import { QuiJeSuis2 } from "./QuiJeSuis2";
 
-export default function Home() {
+export default function NopheiaPage() {
   return (
     <main>
       <Header />

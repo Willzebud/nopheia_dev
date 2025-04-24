@@ -92,9 +92,11 @@ export const Header = () => {
                       Nopheïa
                     </p>
                   </Link>
-                  <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
-                    Les Résultats
-                  </p>
+                  <Link href="/resultats">
+                    <p className="px-4 py-2 text-brand-dark hover:text-brand-primary transition cursor-pointer">
+                      Les Résultats
+                    </p>
+                  </Link>
                 </div>
               )}
             </div>
@@ -214,7 +216,7 @@ export const Header = () => {
                   Nopheïa
                 </li>
               </Link>
-              <Link href="">
+              <Link href="/resultats">
                 <li className="cursor-pointer text-brand-primary cursor-pointer transition hover:text-brand-dark pt-2">
                   Les résultats
                 </li>

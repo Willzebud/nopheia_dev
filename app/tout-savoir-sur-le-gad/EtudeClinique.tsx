@@ -28,7 +28,7 @@ export const EtudeClinique = () => {
             Les mesures ont été prises au Doppler.
           </p>
           <p className="text-lg md:text-xl text-brand-dark leading-relaxed mt-10">
-            En 14 séances, c&rsquo;est en moyenne : -8cm Taille | – 4cm cuisses
+            En 15 séances, c&rsquo;est en moyenne : -8cm Taille | – 4cm cuisses
             | -33% graisse corporelle
           </p>
           <div className="w-full flex justify-center mt-5">

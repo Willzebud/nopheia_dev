@@ -8,7 +8,7 @@ import { EnConclusion } from "./EnConclusion";
 import { EtudeClinique } from "./EtudeClinique";
 import { HeroGad } from "./HeroGad";
 
-export default function GADPage() {
+export default function ToutSavoirPage() {
   return (
     <main>
       <Header />

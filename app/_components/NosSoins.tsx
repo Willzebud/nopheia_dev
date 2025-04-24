@@ -10,12 +10,14 @@ const soins = [
     description: "Le soin pour allier l’utile à l’agréable",
     image: "/images/ImgSoins/1.webp",
     href: "#soin-signature",
+    alt: "Image de l'offre : Soin Signature GAD",
   },
   {
     title: "Le GAD Detox +",
     description: "Pour des résultats encore plus immédiats",
     image: "/images/ImgSoins/2.webp",
     href: "#gad-detox",
+    alt: "Image de l'offre : GAD Detox +",
   },
   {
     title: "Le Belly Gad",
@@ -23,6 +25,7 @@ const soins = [
       "Massage du ventre qui apaise l’esprit, détoxifie et draine l’abdomen",
     image: "/images/ImgSoins/3.webp",
     href: "#belly-gad",
+    alt: "Image de l'offre : Belly Gad",
   },
 ];
 
@@ -45,7 +48,7 @@ export const NosSoins = () => {
               <div className="w-full overflow-hidden rounded-xl shadow-lg">
                 <Image
                   src={soin.image}
-                  alt={soin.title}
+                  alt={soin.alt}
                   width={500}
                   height={380}
                   className="object-cover w-full h-[260px] md:h-[300px] lg:h-[320px]"

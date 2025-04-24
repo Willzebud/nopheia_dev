@@ -2,14 +2,14 @@
 import Image from "next/image";
 import { Section } from "../_components/Section";
 
-export const QuiJeSuis1 = () => {
+export const Introduction = () => {
   return (
     <Section className="pt-[100px]">
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-12 flex flex-col lg:flex-row items-center justify-between gap-6">
         {/* Texte à gauche */}
         <div className="w-full lg:w-1/2">
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary mb-6">
-            Nopheïa
+            Les résultats du massage GAD
           </h1>
 
           {/* Image pour mobile */}
@@ -30,15 +30,12 @@ export const QuiJeSuis1 = () => {
           </div>
 
           <p className="text-lg md:text-xl text-brand-dark leading-relaxed text-justify">
-            Chez Nopheïa, nous croyons en une beauté qui ne cherche pas à
-            transformer, mais à révéler. <br />
-            <br /> Une beauté naturelle, bienveillante et profondément
-            respectueuse du corps féminin. <br />
-            <br /> Fondée par Ophélie ROCHE, ostéopathe diplômée d&rsquo;État et
-            ambassadrice de la méthode GAD®, Nopheïa accompagne depuis plusieurs
-            années les femmes qui souhaitent atténuer leur cellulite, redessiner
-            leur silhouette et retrouver une peau plus lisse et plus tonique,
-            sans jamais renier leur corps, ni leur singularité.
+            Accompagnés d&rsquo;une activité physique modérée ainsi qu’une
+            alimentation équilibrée (Recommandée par le Programme National
+            Nutrition Santé), l&rsquo;étude Clinique démontre bien que le
+            Massage GAD est efficace pour la réduction localisée des cellules
+            graisseuses et les diminutions de circonférence de la taille des
+            cuisses et des hanches par son action drainante.
           </p>
         </div>
 
