@@ -21,7 +21,7 @@ export const QuiJeSuis1 = () => {
               }}
             >
               <Image
-                src="/images/Logo.png"
+                src="/images/Logo.webp"
                 alt="Logo de la marque Nopheïa"
                 fill
                 className="object-contain"
