@@ -30,7 +30,7 @@ const questions = [
     question:
       "En quoi le GAD® se distingue-t-il des autres approches amincissantes ?",
     answer:
-      "Le GAD® se distingue par sa genèse scientifiquement prouvée sur plusieurs années. Basée sur des résultats cliniques tangibles, il offre une approche amincissante unique et innovante. Notre engagement envers votre bien-être et votre confiance est au cœur de cette méthode. Notre objectif est de vous offrir des résultats exceptionnels grâce à notre expertise en tant que professionnelle de santé et à ma connaissance approfondie de l’anatomie.",
+      "Le GAD® se distingue par sa genèse scientifiquement prouvée sur plusieurs années. Basée sur des résultats cliniques tangibles, il offre une approche amincissante unique et innovante. Notre engagement envers votre bien-être et votre confiance est au cœur de cette méthode. Notre objectif est de vous offrir des résultats exceptionnels grâce à notre expertise en tant que professionnelle de santé et à notre connaissance approfondie de l’anatomie.",
   },
   {
     question: "Le massage GAD® est-il douloureux ?",
