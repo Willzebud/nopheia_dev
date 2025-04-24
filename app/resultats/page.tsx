@@ -7,7 +7,6 @@ export default function ResultatsPage() {
   return (
     <main>
       <Header />
-      <Spacing />
       <Introduction />
       <Footer />
     </main>

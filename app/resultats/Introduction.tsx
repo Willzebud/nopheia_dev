@@ -50,7 +50,7 @@ export const Introduction = () => {
   const flattenedImages = images.flatMap((img) => [img.avant, img.apres]);
 
   return (
-    <Section className="sm:pt-[100px] md:pt-[100px]">
+    <Section className="pt-[100px] md:pt-[100px]">
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-12 flex flex-col lg:flex-row items-center justify-between lg:gap-8">
         {/* Texte à gauche */}
         <div className="w-full lg:w-1/2">
