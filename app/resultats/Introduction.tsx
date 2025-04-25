@@ -14,44 +14,92 @@ export const Introduction = () => {
 
   const images = [
     {
-      avant: "/images/ImgRe/Avant/Avant1.webp",
-      apres: "/images/ImgRe/Après/Après1.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant1.webp",
+        alt: "Photo avant massage GAD - Patiente 1",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après1.webp",
+        alt: "Photo après massage GAD - Patiente 1",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant2.webp",
-      apres: "/images/ImgRe/Après/Après2.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant2.webp",
+        alt: "Photo avant massage GAD - Patiente 2",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après2.webp",
+        alt: "Photo après massage GAD - Patiente 2",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant3.webp",
-      apres: "/images/ImgRe/Après/Après3.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant3.webp",
+        alt: "Photo avant massage GAD - Patiente 3",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après3.webp",
+        alt: "Photo après massage GAD - Patiente 3",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant4.webp",
-      apres: "/images/ImgRe/Après/Après4.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant4.webp",
+        alt: "Photo avant massage GAD - Patiente 4",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après4.webp",
+        alt: "Photo après massage GAD - Patiente 4",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant5.webp",
-      apres: "/images/ImgRe/Après/Après5.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant5.webp",
+        alt: "Photo avant massage GAD - Patiente 5",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après5.webp",
+        alt: "Photo après massage GAD - Patiente 5",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant6.webp",
-      apres: "/images/ImgRe/Après/Après6.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant6.webp",
+        alt: "Photo avant massage GAD - Patiente 6",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après6.webp",
+        alt: "Photo après massage GAD - Patiente 6",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant7.webp",
-      apres: "/images/ImgRe/Après/Après7.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant7.webp",
+        alt: "Photo avant massage GAD - Patiente 7",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après7.webp",
+        alt: "Photo après massage GAD - Patiente 7",
+      },
     },
     {
-      avant: "/images/ImgRe/Avant/Avant8.webp",
-      apres: "/images/ImgRe/Après/Après8.webp",
+      avant: {
+        src: "/images/ImgRe/Avant/Avant8.webp",
+        alt: "Photo avant massage GAD - Patiente 8",
+      },
+      apres: {
+        src: "/images/ImgRe/Après/Après8.webp",
+        alt: "Photo après massage GAD - Patiente 8",
+      },
     },
   ];
 
-  const flattenedImages = images.flatMap((img) => [img.avant, img.apres]);
+  const slides = images.flatMap((img) => [img.avant, img.apres]);
 
   return (
     <Section className="pt-[100px]">
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-12 flex flex-col lg:flex-row items-center justify-between lg:gap-8">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between lg:gap-8 pt-[50px]">
         {/* Texte à gauche */}
         <div className="w-full lg:w-1/2">
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-center text-brand-primary mb-6">
@@ -85,14 +133,14 @@ export const Introduction = () => {
 
           {/* Slides */}
           <div ref={sliderRef} className="keen-slider">
-            {flattenedImages.map((src, index) => (
+            {slides.map((img, index) => (
               <div
                 key={index}
                 className="keen-slider__slide flex flex-col items-center text-center gap-4"
               >
                 <Image
-                  src={src}
-                  alt={`Résultat ${index + 1}`}
+                  src={img.src}
+                  alt={img.alt}
                   width={800}
                   height={800}
                   className="rounded-[40px] object-contain w-[400px] h-[500px] md:w-[500px] md:h-[700px] lg:w-[600px] lg:h-[700px]"
